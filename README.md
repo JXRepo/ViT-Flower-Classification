@@ -19,6 +19,8 @@ This project implements a Vision Transformer (ViT) model for flower image classi
 
 3. Train the model: python train.py --data-path /path/to/flower_photos --weights ./vit_base_patch16_224_in21k.pth
 
+4. Predict a single image: python predict.py
+
 ## **Future Improvements**
 
 - Experiment with larger ViT models (ViT-L/16, ViT-H/14).
